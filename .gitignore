@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+
+# Data
+data/processed/
+data/*.parquet
+
+# Environment
+.env
+.venv/

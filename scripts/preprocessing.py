@@ -4,7 +4,7 @@ import geopandas as gpd
 
 # Local imports
 from Transit_Quality_Study.transit_quality_study.config import *
-from . import gtfs, census, stop_data
+from scripts import gtfs, census, stop_data
 from gtfs_functions import Feed
 
 # Initialize GTFS feed (no busiest_date, 24-hour time window)
